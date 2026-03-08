@@ -15,6 +15,10 @@ class Parent{
     void hello(){
         System.out.println("HELLO FROM PARENT");
     }
+
+    void add(int a,int b){
+        System.out.println(a+b);
+    }
 }
 
 class Child extends Parent{
