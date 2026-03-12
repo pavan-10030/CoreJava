@@ -1,3 +1,21 @@
+/**
+ * Aggregation is a has-a relationship between two objects where one object contains a reference to another object
+ * Example: Every mobile has a charger
+ * Composition is a part-of relationship where one object cannot exists independently without the parent object.
+ * Example: Every mobile has a OS 
+ * 
+ * Aggregation is a loose-bound 
+ * Composition is a tight-bound
+ */
+ 
+ /**
+  * 
+  * -------------Aggregation and Composition Implementation----------
+  */
+
+
+
+
 class Os{
 	private String name;
 	private int size;
